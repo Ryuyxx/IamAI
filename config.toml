@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+# languageCode = "en-us"
+languageCode = "ja-jp"
+title = "Ryuya"
+
+author = "@Ryuya Hasegawa"
+copyright = "Copyright © 2020–2021 @Ryuya Hasegawa"
+
+theme = "LoveIt"
+
+relativeURLs = true
+
+[permalinks]
+    # 作成した各WEBページに対するリンクの設定
+    # 下記の設定の場合`http://example.org/2019/filename/`のような形式となる
+    post = "/:year/:filename"
+
+[taxonomies]
+    # タグ一覧を生成
+    tag = "tags"
+    # アーカイブ一覧を生成
+    archive = "archives"
