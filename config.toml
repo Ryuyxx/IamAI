@@ -1,22 +1,476 @@
 baseURL = "http://example.org/"
 # languageCode = "en-us"
-languageCode = "ja-jp"
-title = "Ryuya"
-
-author = "@Ryuya Hasegawa"
-copyright = "Copyright © 2020–2021 @Ryuya Hasegawa"
-
+defaultContentLanguage = "en"
+title = "Rog"
 theme = "LoveIt"
-
+enableEmoji = true
 relativeURLs = true
 
-[permalinks]
-    # 作成した各WEBページに対するリンクの設定
-    # 下記の設定の場合`http://example.org/2019/filename/`のような形式となる
-    post = "/:year/:filename"
+[params]
+  version = "0.2.X"
+  defaultTheme = "dark"
+  dateFormat = "2006-01-02"
+  images = ["/images/Ryuya_icon_trans_trims.png"]
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "龍的成長日記"
+      pre = "<i class='fas fa-dragon fa-fw'></i>"
+      post = ""
+      typeit = false
+  [params.footer]
+    enable = true
+    custom = ''
+    hugo = true
+    copyright = true
+    author = true
+    since = 2020
+    icp = ""
+    license= 'Ryuya Hasegawa | <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [params.section]
+    paginate = 5
+    dateFormat = "01-02"
+    rss = 10
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = true
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.math]
+      enable = false
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.mapbox]
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = true
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = true
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = true
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+    [params.page.comment]
+      enable = true
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      [params.page.comment.valine]
+        enable = true
+        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = "https://leancloud.hugoloveit.com"
+        emoji = ""
+      [params.page.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = ""
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      [params.page.comment.commento]
+        enable = false
+      [params.page.comment.utterances]
+        enable = false
+        # owner/repo
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+    [params.page.library]
+      [params.page.library.css]
+        # someCSS = "some.css"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        # someCSS = "https://cdn.example.com/some.css"
+      [params.page.library.js]
+        # someJavascript = "some.js"
+        # located in "assets/" 位于 "assets/"
+        # Or 或者
+        # someJavascript = "https://cdn.example.com/some.js"
+    [params.page.seo]
+      images = []
+      [params.page.seo.publisher]
+        name = "xxxx"
+        logoUrl = "/images/avatar.png"
 
-[taxonomies]
-    # タグ一覧を生成
-    tag = "tags"
-    # アーカイブ一覧を生成
-    archive = "archives"
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+#修正必須
+  [params.seo]
+    image = "/images/Apple-Devices-Preview.png"
+    thumbnailUrl = "/images/screenshot.png"
+
+
+  [params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = ""
+      # whether to anonymize IP
+      anonymizeIP = true
+    [params.analytics.fathom]
+      id = ""
+      # server url for your tracker if you're self hosting
+      server = ""
+
+  # Cookie consent config
+  [params.cookieconsent]
+    enable = false
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+  # CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    # ("jsdelivr.yml")
+    # "assets/data/cdn/"
+    data = "jsdelivr.yml"
+  [params.compatibility]
+      polyfill = false
+    objectFit = false
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "Ryuya"
+  email = ""
+  link = ""
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+[languages]
+  [languages.en]
+    weight = 1
+    # language code
+    languageCode = "en"
+    # language name
+    languageName = "English"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/Ryuyxx"
+        title = "GitHub"
+        weight = 6
+    [languages.en.params]
+      description = "About me"
+      keywords = ["profile", "me"]
+      [languages.en.params.app]
+        title = ""
+        noFavicon = false
+        svgFavicon = ""
+        themeColor = "#ffffff"
+        iconColor = "#5bbad5"
+        tileColor = "#da532c"
+      [languages.en.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = ""
+          appID = ""
+          searchKey = ""
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/Ryuya_icon_trans_trims.png"
+          title = ""
+          subtitle = "    I  am  AI           .           .             .                Engineer                                        (proly)"
+          typeit = true
+            social = true
+          disclaimer = ""
+        [languages.en.params.home.posts]
+          enable = true
+          paginate = 6
+      [languages.en.params.social]
+        GitHub = "Ryuyxx"
+        Linkedin = ""
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = "Ryuyx"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = "Ryuya-Hasegawa"
+        Keybase = ""
+        Pinterest = ""
+        Reddit = "cyamw"
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = "ryuyxx"
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "work@ryuya.uk"
+        RSS = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+  post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+    [privacy]
+      [privacy.googleAnalytics]
+        # ...
+      [privacy.twitter]
+        enableDNT = true
+      [privacy.youtube]
+        privacyEnhanced = true
+
+  [mediaTypes]
+      [mediaTypes."text/plain"]
+        suffixes = ["md"]
+
+    [outputFormats.MarkDown]
+      mediaType = "text/plain"
+      isPlainText = true
+      isHTML = false
+
+    [outputs]
+      home = ["HTML", "RSS", "JSON"]
+      page = ["HTML", "MarkDown"]
+      section = ["HTML", "RSS"]
+      taxonomy = ["HTML", "RSS"]
+      taxonomyTerm = ["HTML"]
