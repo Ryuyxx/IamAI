@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 # languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Rog"
+title = "ROG"
 theme = "LoveIt"
 enableEmoji = true
 relativeURLs = true

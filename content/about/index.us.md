@@ -4,82 +4,51 @@ date: 2021-02-04T16:10:32+09:00
 draft: true
 ---
 
+<br>  
 
-{{< style "img { height: 1.25rem; }" >}}
-[![Version)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/Ryuyxx/IamAI/releases)
-[![License](https://img.shields.io/github/license/Ryuyxx/IamAI?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/deed.ja)
-{{< /style >}}
+{{< figure src="/images/Ryuya.jpg" title="Me (alive)" >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+## Who
+- :(fab fa-d-and-d fa-fw): My name supposed to be `Ryuya Hasegawa`
+- :(fas fa-globe-asia fa-fw): Living in Tokyo, Japan.
+- :(fas fa-birthday-cake fa-fw): Bron on February 8, 2000
+- :(fas fa-graduation-cap fa-fw): I'm currently being as a university student.
+- :(fas fa-seedling fa-fw): A slave to machine learning
 
-### Features
+<br>
+<br>
 
-#### Performance and SEO
 
-* :(fas fa-rocket fa-fw): Optimized for **performance**: [99]/[100] on mobile and [100]/[100] on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
-* :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
-* :(fas fa-search fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
-* :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+## Interest
 
-#### Appearance and Layout
+* :(fas fa-brain): AI
+* :(fab fa-freebsd): Gadget
+* :(fas fa-desktop): Building Computer
+* :(fas fa-robot): Sci-Fi
 
-* [:(fas fa-desktop):]/[:(fas fa-mobile):] **Responsive** layout
-* [:(fas fa-sun):]/[:(fas fa-moon):] **[Light]/[Dark]** mode
-* :(fas fa-layer-group fa-fw): Globally consistent **design language**
-* :(fas fa-ellipsis-h fa-fw): **Pagination** supported
-* :(far fa-list-alt fa-fw): Easy-to-use and self-expanding **table of contents**
-* :(fas fa-language fa-fw): **Multilanguage** supported and i18n ready
-* :(fab fa-css3-alt fa-fw): Beautiful **CSS animation**
+<br>
+<br>
 
-#### Social and Comment Systems
+## What's ROG  
+ROG is the name of this website.    
+Originally, I was going to use `Ryuya's log`.  
+However, that would be too long and I basically like short names, so I invented an abbreviation.
+The history of the changes are as follows.
+{{< admonition info "origin" false >}}
+1. `Ryuya's log`
+2. `Ryuyalog`
+3. `R(L)og`
+4. `ROG`
+{{< /admonition >}}
+I know that ROG is a [gaming brand of ASUS](https://rog.asus.com/). Actually, I love ASUS and it's one of my favorite brands. Miraculously, it came across the same name, so I am using it as the name of this website. (I'll change it if there are any copyright issues)
+<br>
+<br>
 
-* :(far fa-user fa-fw): **Gravatar** supported by [Gravatar](https://gravatar.com)
-* :(fas fa-user-circle fa-fw): Local **Avatar** supported
-* :(far fa-id-card fa-fw): Up to **64** social links supported
-* :(fas fa-share-square fa-fw): Up to **28** share sites supported
-* :(far fa-comment fa-fw): **Disqus** comment system supported by [Disqus](https://disqus.com)
-* :(far fa-comment-dots fa-fw): **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* :(far fa-comment-alt fa-fw): **Valine** comment system supported by [Valine](https://valine.js.org/)
-* :(far fa-comments fa-fw): **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* :(fas fa-comment fa-fw): **Telegram comments** system supported by [Comments](https://comments.app/)
-* :(fas fa-comment-dots fa-fw): **Commento** comment system supported by [Commento](https://commento.io/)
-* :(fas fa-comment-alt fa-fw): **Utterances** comment system supported by [Utterances](https://utteranc.es/)
+Some people may wonder the Chinese displayed on the header.  
+`龍的成長日記` means `Dragon's Growth Diary`.  
+My real name `Ryuya` is written in Japanese as `竜也` which means dragon.  
+That's why I gave this name to the title.
 
-#### Extended Features
-
-* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
-* :(fas fa-code fa-fw): Automatically **highlighting** code
-* :(far fa-copy fa-fw): **Copy code** to clipboard with one click
-* :(far fa-images fa-fw): **Images gallery** supported by [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
-* :(fab fa-font-awesome fa-fw): Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* :(far fa-sticky-note fa-fw): Extended Markdown syntax for **ruby annotation**
-* :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
-* :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$ \KaTeX $](https://katex.org/)
-* :(fas fa-project-diagram fa-fw): **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* :(fas fa-chart-pie fa-fw): **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* :(fas fa-map-marked-alt fa-fw): **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* :(fas fa-music fa-fw): **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* :(fas fa-video fa-fw): **Bilibili player** shortcode
-* :(far fa-bell fa-fw): Kinds of **admonitions** shortcode
-* :(fas fa-align-left fa-fw): **Custom style** shortcode
-* :(fab fa-js-square fa-fw): **Custom script** shortcode
-* :(fas fa-i-cursor fa-fw): **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* :(fas fa-arrow-down fa-fw): **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* ...
-
-### Interest
-
-LoveIt is licensed under the **MIT** license.
-
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
-
-Thanks to the authors of following resources included in the theme:
+<br>
+<br>
