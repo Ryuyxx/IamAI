@@ -166,7 +166,7 @@ relativeURLs = true
       images = []
       [params.page.seo.publisher]
         name = "Ryuya"
-        logoUrl = "/images/title.png"
+        logoUrl = "/images/Ryuya_icon_trans_trims.png"
 
   [params.typeit]
     speed = 100
@@ -182,8 +182,8 @@ relativeURLs = true
     baidu = ""
 
   [params.seo]
-    image = "/images/title.png"
-    thumbnailUrl = "/images/title.png"
+    image = "/images/Ryuya_icon_trans_trims.png"
+    thumbnailUrl = "/images/Ryuya_icon_trans_trims.png"
 
   [params.analytics]
     enable = false
