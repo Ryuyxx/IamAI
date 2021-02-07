@@ -18,7 +18,7 @@ hiddenFromHomePage: true
 ## Who
 - :(fab fa-d-and-d fa-fw): My name supposed to be `Ryuya Hasegawa`
 - :(fas fa-globe-asia fa-fw): Living in Tokyo, Japan.
-- :(fas fa-birthday-cake fa-fw): Bron on February 8, 2000
+- :(fas fa-birthday-cake fa-fw): Born on February 8, 2000
 - :(fas fa-graduation-cap fa-fw): I'm currently being as a university student.
 - :(fas fa-seedling fa-fw): A slave to machine learning
 
@@ -29,11 +29,11 @@ hiddenFromHomePage: true
 ## Interest
 
 * :(fas fa-brain): AI
-* :(fab fa-freebsd): Gadget
+* :(fab fa-freebsd): Gadgets
 * :(fas fa-desktop): Building Computer
 * :(fas fa-robot): Sci-Fi
 * :(fas fa-skull): Killing errors
-* :(fas fa-terminal): Coding!
+* :(fas fa-terminal): Coding:octocat:
 
 <br>
 <br>

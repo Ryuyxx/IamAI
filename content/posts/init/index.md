@@ -1,5 +1,4 @@
 ---
-weight: 2
 title: "Hello World"
 date: 2021-02-01T12:11:30+09:00
 draft: false
@@ -14,7 +13,7 @@ resources:
 tags: ["blog"]
 toc:
   enable: true
-  
+
 lightgallery: true
 ---
 
