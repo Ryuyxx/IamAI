@@ -2,7 +2,7 @@
 weight: 2
 title: "Hello World"
 date: 2021-02-01T12:11:30+09:00
-draft: true
+draft: false
 summary: "The time had finally come."
 
 resources:
