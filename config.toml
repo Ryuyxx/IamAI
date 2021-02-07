@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://ryuya.uk/"
 # languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "ROG"
@@ -328,7 +328,7 @@ relativeURLs = true
       [languages.en.params.app]
         title = ""
         noFavicon = false
-        svgFavicon = "themes/LoveIt/static/safari-pinned-tab.svg"
+        svgFavicon = ""
         themeColor = "#ffffff"
         iconColor = "#5bbad5"
         tileColor = "#da532c"
