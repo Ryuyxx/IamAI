@@ -6,8 +6,9 @@ draft: false
 
 summary: "Who am I? Maybe I'm ..."
 tags: ["about"]
-images:
-  - "/images/title.png"
+resources:
+- name: "featured-image"
+  src: "title.png"
 
 hiddenFromHomePage: true
 ---
