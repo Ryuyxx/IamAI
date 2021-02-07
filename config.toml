@@ -111,7 +111,7 @@ relativeURLs = true
         clientId = ""
         clientSecret = ""
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -343,9 +343,9 @@ relativeURLs = true
         highlightTag = "em"
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = ""
-          appID = ""
-          searchKey = ""
+          index = "ROG"
+          appID = "8HIF9RSOPD"
+          searchKey = "40db3ba3951c4884d047062739db4141"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
