@@ -13,6 +13,8 @@ resources:
   src: "helloworld.png"
 
 tags: ["blog"]
+comment:
+  enable: true
 
 lightgallery: true
 ---
