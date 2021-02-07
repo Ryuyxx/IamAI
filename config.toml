@@ -299,14 +299,14 @@ relativeURLs = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+      # [[languages.en.menu.main]]
+      #   identifier = "documentation"
+      #   pre = ""
+      #   post = ""
+      #   name = "Docs"
+      #   url = "/categories/documentation/"
+      #   title = ""
+      #   weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
