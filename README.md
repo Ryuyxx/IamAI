@@ -7,5 +7,9 @@
 
 
 This is my blog(?)
-- Deployed to [Netlify](https://www.netlify.com/)
-- Using [HUGO](https://gohugo.io/) as `Static Site Generators`
+- `Deploy` [Netlify](https://www.netlify.com/)
+- `SSG` [HUGO](https://gohugo.io/)
+- `Comment` [DISQUS](https://disqus.com/) (offline now)
+- `Comment` [Valine](https://valine.js.org/en/index.html)
+  - `Storage` [LeanCloud](https://docs.leancloud.app/)
+- `Search` [LUNR](https://lunrjs.com/)

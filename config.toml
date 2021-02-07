@@ -102,7 +102,7 @@ relativeURLs = true
     [params.page.comment]
       enable = true
       [params.page.comment.disqus]
-        enable = true
+        enable = false
         shortname = "rog-2"
       [params.page.comment.gitalk]
         enable = false
@@ -111,11 +111,11 @@ relativeURLs = true
         clientId = ""
         clientSecret = ""
       [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        enable = true
+        appId = "qBQahsKEHDDjELduH4vGGg5U-MdYXbMMI"
+        appKey = "FntPTi8KFhOsvj164YsajRMq"
         placeholder = ""
-        avatar = "mp"
+        avatar = ""
         meta= ""
         pageSize = 10
         lang = ""
@@ -123,7 +123,7 @@ relativeURLs = true
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
+        serverURLs = ""
         emoji = ""
       [params.page.comment.facebook]
         enable = false
