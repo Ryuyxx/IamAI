@@ -3,7 +3,10 @@ title: "About"
 date: 2021-02-04T16:10:32+09:00
 draft: false
 
+summary: "Who am I? Maybe I'm ..."
 tags: ["about"]
+images:
+  - "title.png"
 ---
 
 
