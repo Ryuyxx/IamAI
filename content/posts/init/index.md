@@ -14,6 +14,8 @@ resources:
 tags: ["blog"]
 toc:
   enable: true
+images:
+  - "helloworld.png"
 lightgallery: true
 ---
 

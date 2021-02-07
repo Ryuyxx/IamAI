@@ -2,6 +2,10 @@
 title: "About"
 date: 2021-02-04T16:10:32+09:00
 draft: false
+
+tags: ["about"]
+images:
+  - "pics/title.png"
 ---
 
 
