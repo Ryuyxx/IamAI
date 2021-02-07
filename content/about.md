@@ -4,9 +4,10 @@ date: 2021-02-04T16:10:32+09:00
 draft: true
 ---
 
+
 <br>  
 
-{{< figure src="/images/Ryuya.jpg" title="Me (alive)" >}}
+{{< figure src="https://cdn.discordapp.com/attachments/807293620079820883/807293669471682580/Confidential_Ryuya.png" title="Me (alive)" >}}
 
 
 ## Who
@@ -26,6 +27,8 @@ draft: true
 * :(fab fa-freebsd): Gadget
 * :(fas fa-desktop): Building Computer
 * :(fas fa-robot): Sci-Fi
+* :(fas fa-skull): Killing errors
+* :(fas fa-terminal): Coding!
 
 <br>
 <br>

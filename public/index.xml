@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Ryuya</title>
+        <title>ROG</title>
         <link>http://example.org/</link>
-        <description>Ryuya</description>
-        <generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>Copyright © 2020–2021 @Ryuya Hasegawa</copyright><lastBuildDate>Thu, 04 Feb 2021 11:37:39 &#43;0900</lastBuildDate>
+        <description>About me</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
