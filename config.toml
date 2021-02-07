@@ -9,6 +9,7 @@ relativeURLs = true
 [params]
   version = "0.2.X"
   defaultTheme = "dark"
+  keywords = ["Ryuya","Ryuya Hasegawa"]
   dateFormat = "2006-01-02"
   images = ["/images/Ryuya_icon_trans_trims.png"]
   [params.header]
@@ -164,8 +165,8 @@ relativeURLs = true
     [params.page.seo]
       images = []
       [params.page.seo.publisher]
-        name = "xxxx"
-        logoUrl = "/images/avatar.png"
+        name = "Ryuya"
+        logoUrl = "/images/Ryuya_icon_trans_trims.png"
 
   [params.typeit]
     speed = 100
@@ -180,11 +181,9 @@ relativeURLs = true
     pinterest = ""
     baidu = ""
 
-#修正必須
   [params.seo]
-    image = "/images/Apple-Devices-Preview.png"
-    thumbnailUrl = "/images/screenshot.png"
-
+    image = "/images/title.png"
+    thumbnailUrl = "/images/title.png"
 
   [params.analytics]
     enable = false

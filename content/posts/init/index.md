@@ -7,13 +7,13 @@ summary: "The time had finally come."
 
 resources:
 - name: "featured-image"
-  # src: "blake-connally-ipXPK5F7hao-unsplash.jpg"
   src: "love.jpg"
 - name: "featured-image-preview"
   src: "helloworld.png"
 
 tags: ["blog"]
-
+toc:
+  enable: true
 lightgallery: true
 ---
 
