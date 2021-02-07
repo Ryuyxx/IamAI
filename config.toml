@@ -166,7 +166,7 @@ relativeURLs = true
       images = []
       [params.page.seo.publisher]
         name = "Ryuya"
-        logoUrl = "/images/Ryuya_icon_trans_trims.png"
+        logoUrl = "/images/title.png"
 
   [params.typeit]
     speed = 100
