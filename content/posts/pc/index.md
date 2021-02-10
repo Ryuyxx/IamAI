@@ -13,8 +13,6 @@ resources:
 
 tags: ["pc", "blog"]
 categories: ["Tech"]
-toc:
-  enable: true
 
 lightgallery: true
 ---
