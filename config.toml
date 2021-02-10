@@ -11,7 +11,7 @@ relativeURLs = true
   defaultTheme = "dark"
   keywords = ["Ryuya","Ryuya Hasegawa"]
   dateFormat = "2006-01-02"
-  images = ["/images/Ryuya_icon_trans_trims.png"]
+  images = ["/images/title.png"]
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
