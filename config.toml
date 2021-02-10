@@ -182,8 +182,8 @@ relativeURLs = true
     baidu = ""
 
   [params.seo]
-    image = "/images/Ryuya_icon_trans_trims.png"
-    thumbnailUrl = "/images/Ryuya_icon_trans_trims.png"
+    image = "/images/title.png"
+    thumbnailUrl = "/images/title.png"
 
   [params.analytics]
     enable = false
