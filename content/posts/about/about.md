@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2021-02-04T16:10:32+09:00
+date: 2021-01-28T16:10:32+09:00
 draft: false
 
 summary: "Who am I? Maybe I'm ..."
@@ -12,7 +12,7 @@ hiddenFromHomePage: true
 
 <br>  
 
-{{< figure src="https://cdn.discordapp.com/attachments/807293620079820883/807293669471682580/Confidential_Ryuya.png" title="Me (alive)" >}}
+{{< figure src="https://bit.ly/3a3IAxR" title="Me (alive)" >}}
 
 
 ## Who
