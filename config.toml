@@ -9,9 +9,10 @@ relativeURLs = true
 [params]
   version = "0.2.X"
   defaultTheme = "dark"
+  gitRepo = "https://github.com/Ryuyxx/IamAI"
   keywords = ["Ryuya","Ryuya Hasegawa"]
   dateFormat = "2006-01-02"
-  images = ["/images/title.png"]
+  images = ["/title.png"]
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
@@ -319,11 +320,11 @@ relativeURLs = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/Ryuyxx"
+        url = "https://github.com/Ryuyxx/IamAI"
         title = "GitHub"
         weight = 6
     [languages.en.params]
-      description = "About me"
+      description = "My Journal"
       keywords = ["profile", "me"]
       [languages.en.params.app]
         title = ""
