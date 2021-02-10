@@ -12,8 +12,6 @@ resources:
   src: "james-fitzgerald-du-y7R3qUPE-unsplash.jpg"
 
 tags: ["pc", "blog"]
-toc:
-  enable: true
 
 lightgallery: true
 ---
