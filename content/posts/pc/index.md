@@ -7,11 +7,12 @@ summary: "My computer and past history of it"
 
 resources:
 - name: "featured-image"
-  src: "james-fitzgerald-du-y7R3qUPE-unsplash.jpg"
+  src: "james-fitzgerald-du-y7R3qUPE-unsplash-reduce.jpg"
 - name: "featured-image-preview"
-  src: "james-fitzgerald-du-y7R3qUPE-unsplash.jpg"
+  src: "james-fitzgerald-du-y7R3qUPE-unsplash-reduce.jpg"
 
 tags: ["pc", "blog"]
+categories: ["Tech"]
 toc:
   enable: true
 
@@ -27,7 +28,7 @@ lightgallery: true
 
 <br>
 
-## Setup  
+## Setup :information_desk_person:
 <br>
 {{< figure src="https://bit.ly/2YYsejs" title="Desk (2019~) " >}}
 
@@ -38,15 +39,15 @@ I'll describe the details briefly below.
 
 ### Gear
 - 160x160 L-Shaped Desk
-- LG 5120x2160 34inch Monitor
-- Ergotron Monitor Arm
-- Sound Blaster X Katana
-- Majestouch 2SS / MX Speed Silver switch / Tenkeyless / US ASCII
-- Logitech MX Master 3
-- SHURE SM7B
-- RODE PSA1 (Recommend Blue Compass)
-- Roland Rubix24
-- Random lights and mousepad
+- [LG 5120x2160 34inch Monitor](https://amzn.to/3d0uPBF)
+- [Ergotron Monitor Arm](https://amzn.to/370bk8x)
+- [Sound Blaster X Katana](https://amzn.to/36Vz5Ph)
+- [Majestouch 2SS](https://amzn.to/3cZTYNa) / MX Speed Silver switch / Tenkeyless / US ASCII
+- [Logitech MX Master 3](https://amzn.to/2Z49C1S)
+- [SHURE SM7B](https://amzn.to/2Z6HyKU)
+- [RODE PSA1](https://amzn.to/2Z3lmS6) (Recommend [Blue Microphone Stand Compass](https://amzn.to/2OprMcd))
+- [Roland Rubix24](https://amzn.to/3aVqJYS)
+- Random [lights](https://amzn.to/3b6UqGT) and [mousepad](https://amzn.to/3tMKPgT)
 
 I'm planning to change the keyboard as I've noticed I prefer to use heavy keys or a low profile.
 
@@ -55,7 +56,7 @@ I'm planning to change the keyboard as I've noticed I prefer to use heavy keys o
 
 <br>
 
-## Computer  
+## Computer :computer:
 <br>
 
 <img width=320 src="https://bit.ly/3jxXjUF"> <img width=320 src="https://bit.ly/3jyfOIE">
@@ -70,16 +71,16 @@ I personally like to keep my wiring clean, so I use a lot of ties to ensure a ce
 
 ### Specs
 
-- AMD Ryzen™ 9 5950X
-- GIGABYTE NVIDIA GeForce RTX3090 24GB
-- G.Skill DDR4-3200 64GB
-- ASUS ROG STRIX X570-I [mini-ITX]
-- GIGABYTE AORUS LIQUID COOLER 280
-- Western Digital PCI-E Gen4 M.2-SSD SN850 2TB
-- Seagate 2TB HDD
-- Corsair SF750-PLATINUM 750W
-- Corsair LL120 RGB White
-- Cooler Master NR200P  
+- [AMD Ryzen™ 9 5950X](https://amzn.to/3jAwpeZ)
+- GIGABYTE [NVIDIA GeForce RTX3090 24GB](https://amzn.to/3pc21bP)
+- [G.Skill TridentZ Royal DDR4-3200 64GB](https://amzn.to/2LARARs)
+- [ASUS ROG STRIX X570-I [mini-ITX]](https://amzn.to/3aTOrou)
+- [GIGABYTE AORUS LIQUID COOLER 280](https://amzn.to/3p25AkY)
+- [Western Digital PCI-E Gen4 M.2-SSD SN850 2TB](https://amzn.to/2Z2U3qX)
+- [Seagate 2TB HDD](https://amzn.to/2LGZV6m)
+- [Corsair SF750-PLATINUM 750W](https://amzn.to/2N9uQIO)
+- [Corsair LL120 RGB White](https://amzn.to/2Z3nOYJ)
+- [Cooler Master NR200P](https://amzn.to/3aMa8XC)  
 
 <br>
 
@@ -90,7 +91,7 @@ Also, I'm considering water-cooling, but since I don't have the money for it, it
 
 <br>
 
-## Legacy
+## Legacy :see_no_evil:
 
 These are the legacies of the past. So far I have assembled these computers.
 
@@ -108,6 +109,6 @@ These are the legacies of the past. So far I have assembled these computers.
 
 <br>
 
-I miss the days when I used to be happy with core i7.  Now my body craves more cores and is not satisfied with less than 24GB of VRAM:cold_sweat:  
+I miss the days when I used to be happy with [core i7](https://amzn.to/3cVucJT).  Now my body craves more cores and is not satisfied with less than 24GB of VRAM:cold_sweat:  
 
-I'm also currently using a 2017 MacBook. It's too slow and planning to write something about it soon after I buy a new laptop.
+I'm also using a 2017 MacBook right now. But it's too slow and planning to move on a new laptop. I'll write something about it soon after I buy.

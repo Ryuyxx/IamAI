@@ -34,7 +34,7 @@ The virus has everyone holed up in their rooms. (I'm happy).
 This has given me more things to want.
 I want a camera, an electric standing desk, and a good bed...  
 Also whatever, my current MacBook(Retina, 12-inch, 2017) is way slow.  
-I'm interested in the recently released and popular [M1 MacBook](https://www.apple.com/mac/m1/).  
+I'm interested in the recently released and popular [M1 MacBook](https://amzn.to/3q8x7mc).  
 **I want a stout laptop.**
 
 {{< admonition note "self" false >}}
