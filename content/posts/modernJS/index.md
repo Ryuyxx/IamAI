@@ -11,7 +11,7 @@ resources:
 - name: "featured-image-preview"
   src: "greg-rakozy-vw3Ahg4x1tY-unsplash.jpg"
 
-tags: ["code","js"]
+tags: ["code", "js"]
 categories: ["Memo"]
 
 lightgallery: true
