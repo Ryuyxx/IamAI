@@ -1,7 +1,7 @@
 ---
 title: "Modern JavaScript ABC"
 date: 2021-02-13T19:47:36+09:00
-draft: true
+draft: false
 
 summary: "Basic grammar and functions of modern JavaScript. Written in Japanese."
 
@@ -11,7 +11,7 @@ resources:
 - name: "featured-image-preview"
   src: "greg-rakozy-vw3Ahg4x1tY-unsplash.jpg"
 
-tags: ["code"]
+tags: ["code","js"]
 categories: ["Memo"]
 
 lightgallery: true
