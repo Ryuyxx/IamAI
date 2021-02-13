@@ -20,7 +20,7 @@ lightgallery: true
 <br>
 
 ## Intro
-- I had some trouble reading special characters, so I'll record them here.
+- I often get confused by the names of special characters, so I'll record them here.
 
 <br>
 
