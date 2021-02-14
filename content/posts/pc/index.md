@@ -1,6 +1,6 @@
 ---
 title: "Current partner"
-date: 2021-02-08T00:11:33+09:00
+date: 2021-01-08T00:11:33+09:00
 draft: false
 
 summary: "My computer and past history of it"

@@ -5,6 +5,7 @@ title = "ROG"
 theme = "LoveIt"
 enableEmoji = true
 relativeURLs = true
+enableGitInfo = true
 
 [params]
   version = "0.2.X"
@@ -12,7 +13,7 @@ relativeURLs = true
   gitRepo = "https://github.com/Ryuyxx/IamAI"
   keywords = ["Ryuya","Ryuya Hasegawa"]
   dateFormat = "2006-01-02"
-  images = ["/title.png"]
+  images = ["/images/title.png"]
   [params.header]
     desktopMode = "fixed"
     mobileMode = "auto"
@@ -32,7 +33,7 @@ relativeURLs = true
     icp = ""
     license= 'Ryuya Hasegawa | <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   [params.section]
-    paginate = 5
+    paginate = 10
     dateFormat = "01-02"
     rss = 10
   [params.list]

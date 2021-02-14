@@ -1,6 +1,6 @@
 ---
 title: "Name of the Special Symbol"
-date: 2021-02-10T19:31:20+09:00
+date: 2021-01-16T19:31:20+09:00
 draft: false
 
 summary: "How to read special characters?"
