@@ -46,9 +46,8 @@ const val5 = ['dog', 'cat'];
 val5[0] = 'bird';
 val5.push('hedgehog');
 console.log(val5);
-```
-```
-["bird", "cat", "hedgehog"]
+
+>>> ["bird", "cat", "hedgehog"]
 ```
 #### このように、`0番目の値`が変更可能で`push()`による値追加も可能
 {{< /admonition >}}
@@ -67,10 +66,8 @@ const name = 'Ryuya';
 const age = 21;
 const message = `私の名前は${name}です。年齢は${age}歳です。`;
 console.log(message);
-```
 
-```
-私の名前はRyuyaです。年齢は21歳です。
+>>> 私の名前はRyuyaです。年齢は21歳です。
 ```
 
 <br>
@@ -89,9 +86,8 @@ const strFunc = (str) => {
   return str;
 }
 console.log(func("アロー関数です。"));
-```
-```
-アロー関数です。
+
+>>> アロー関数です。
 ```
 
 {{< admonition type=tip >}}
@@ -131,15 +127,13 @@ const sumFunc2 = (num1, num2) => num1 + num2;
   };
   const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
   console.log(message1);
-  ```
-  ```
-  名前はRyuyaです。年齢は21歳です。
+
+  >>> 名前はRyuyaです。年齢は21歳です。
   ```
 ### 分割を使用
 ```js
 const {name, age} = myProfile;
 const message2 = `名前は${name}です。年齢は${age}歳です`;
-console.log(message2);
 ```
 このように`myProfile`を省略出来る。
 
@@ -148,7 +142,6 @@ console.log(message2);
 const myProfile = ["Ryuya", 21];
 const [name, age] = myProfile;
 const message2 = `名前は${name}です。年齢は${age}歳です`;
-console.log(message3);
 ```
 
 <br>
@@ -160,9 +153,8 @@ console.log(message3);
 ```js
 const sayHello = (name = "Gest") => console.log(`Hello! ${name}!`);
 sayHello();
-```
-```
-Hello! Gest!
+
+>>> Hello! Gest!
 ```
 
 <br>
@@ -178,9 +170,8 @@ Hello! Gest!
 ```js
 const arr1 = [1,2];
 console.log(...arr1);
-```
-```
-1 2
+
+>>> 1 2
 ```
 <br>
 
@@ -190,16 +181,15 @@ console.log(...arr1);
     ```js
     const sunFunc = (num1, num2) =>  console.log(num1 + num2);
     sunFunc(arr1[0],arr1[1]);
-    ```
-    ```
-    3
+
+    >>> 3
     ```
 
   - **スプレッド構文 使用**
     ```js
     sunFunc(...arr1);
     ```
-      このように、二つの引数を一度に与えることが出来る。
+      **このように、二つの引数を一度に与えることが出来る。**
 
 <br>
 
@@ -211,9 +201,8 @@ console.log(...arr1);
 const arr2 = [1,2,3,4,5];
 const [num1, num2, ...arr3] = arr2;
 console.log(arr3);
-```
-```
-[3, 4, 5]
+
+>>> [3, 4, 5]
 ```
 
 <br>
@@ -224,9 +213,8 @@ const arr4 = [10, 20];
 const arr5 = [30, 40];
 
 const arr6 = [...arr4, ...arr5];
-```
-```
-[10, 20, 30, 40]
+
+>>> [10, 20, 30, 40]
 ```
 
 <br>
@@ -235,7 +223,7 @@ const arr6 = [...arr4, ...arr5];
 - `copy()`のように、コピーすることも出来る。
 - コピーなので、オリジナルは参照されない。
 
-```
+```js
 const newArr4 = [...arr4];
 ```
 
@@ -252,11 +240,10 @@ const newArr4 = [...arr4];
     for (let i = 0; i < nameArr.length; i++){
       console.log(`${i+1}: ${nameArr[i]}`);
     }
-    ```
-    ```
-    1: Bob
-    2: Jack
-    3: Tom
+
+    >>> 1: Bob
+        2: Jack
+        3: Tom
     ```
 
 2. **`map`を使うと**
@@ -265,19 +252,17 @@ const newArr4 = [...arr4];
       return name;
     })
     console.log(nameArr2);
-    ```
-    ```
-    ["Bob", "Jack", "Tom"]
+
+    >>> ["Bob", "Jack", "Tom"]
     ```
 
 3. **`map` & `アロー関数` で美しく**
     ```js
     nameArr.map((name, index) => console.log(`${index+1}: ${name}`));
-    ```
-    ```
-    1: Bob
-    2: Jack
-    3: Tom
+
+    >>> 1: Bob
+        2: Jack
+        3: Tom
     ```
 
 <br>
@@ -293,9 +278,8 @@ const newNumArr = numArr.filter((num)=>{
   return num % 2 === 1;
 })
 console.log(newNumArr);
-```
-```
-[1, 3, 5]
+
+>>> [1, 3, 5]
 ```
 
 <br>
@@ -306,9 +290,8 @@ console.log(newNumArr);
 ```js
 const val1 = 1 > 0 ? 'true' : 'false';
 console.log(val1);
-```
-```
-true
+
+>>> true
 ```
 <br>
 
@@ -320,12 +303,12 @@ const num = 1300;
 
 const formattedNum = typeof num === 'number' ? num.toLocaleString() : 'Please enter number';
 console.log(formattedNum)
+
+>>> 1,300
 ```
 `num`が数値の場合、区切られた値が返る。そうでない場合、`Please enter number`が返ってくる。  
-今回は数値なので以下が結果  
-```
-1,300
-```
+今回は数値なので`1,300`が結果  
+
 
 {{< /admonition >}}
 
@@ -343,9 +326,8 @@ console.log(formattedNum)
 const num = null;
 const fee = num || 'unknown';
 console.log(fee);
-```
-```
-unknown
+
+>>> unknown
 ```
 なお、`const num = 100;`の場合は、`100`が結果として返ってくる。
 
@@ -356,7 +338,6 @@ unknown
 const num2 = 111;
 const fee2 = num2 && 'Something';
 console.log(fee2);
-```
-```
-Something
+
+>>> Something
 ```
