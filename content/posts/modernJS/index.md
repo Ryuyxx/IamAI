@@ -35,7 +35,7 @@ lightgallery: true
 上書き可能
 
 - `const`
-全て不可
+全て不可※
 
 {{< admonition type=note >}}
 #### 基本的に`const`を利用する
