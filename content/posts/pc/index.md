@@ -22,7 +22,7 @@ lightgallery: true
 ## Intro
 - In this article, I would like to introduce my current **PC** and **desk setup**.  
 - I don't think I will make any more significant improvements while I am at family home. (I can't wait to live on my own.)
-- In addition, I would like to introduce some of the PCs I have built in the past.
+- In addition, I'll share some of the PCs I have built in the past.
 
 <br>
 
